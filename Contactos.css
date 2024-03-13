@@ -1,0 +1,68 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header, footer, main, aside{
+    padding: 20px;
+    border: 1px solid rgb(242, 176, 214);
+    margin: 10px;
+}
+
+header, footer {
+    background-color: #f5e4e4;
+}
+img{
+    border-radius: 100px;
+    width: 120px;
+    height: 120px;
+}
+
+.Logo{
+    border-style: solid ;
+    border-color: black;
+    margin: -25px 0px 0px;
+    width: 140px;
+    height: 140px;
+    position: absolute;
+}
+
+h1{
+    color: #000000;
+    
+    
+}
+
+main{
+    flex: 1;
+}
+ul li{
+    display: inline-block;
+    padding: 0px 25px 15px;
+    font-size: 20px;
+}
+
+a{
+    font-size: 25px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(171, 16, 202);
+    font-size: 30px ;
+    text-shadow: 0 0 10px rgb(213, 5, 255);
+}
+
+
+aside{
+    width: 200px;
+    margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    color: #4e4e4e;
+}
